@@ -4,7 +4,33 @@
     <bookmark url="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/concurrent/LinkedBlockingQueue.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37c573e7-750d-4db9-9d3f-7277087b9dcd" name="Default" comment="" />
+    <list default="true" id="37c573e7-750d-4db9-9d3f-7277087b9dcd" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/ThreadLocalTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/LocalCache.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/GC/src/test/java/LocalCacheTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/GC/GC.iml" afterPath="$PROJECT_DIR$/GC/GC.iml" />
+      <change beforePath="$PROJECT_DIR$/GC/pom.xml" afterPath="$PROJECT_DIR$/GC/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/ConcurrentHashMapTest.java" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/ConcurrentHashMapTest.java" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/gc/FinalizeEscapeGC.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/gc/FinalizeEscapeGC.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/gc/OOMObject$OOMObject1.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/gc/OOMObject$OOMObject1.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/gc/OOMObject.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/gc/OOMObject.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/DeadLockTest$SynAddRunnable.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/DeadLockTest$SynAddRunnable.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/DeadLockTest.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/DeadLockTest.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/SynchronizedTest$1.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/SynchronizedTest$1.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/SynchronizedTest$2.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/SynchronizedTest$2.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/SynchronizedTest.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/SynchronizedTest.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/TestThreadPool.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/TestThreadPool.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/ThreadPoolTask.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/ThreadPoolTask.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/ThreadWaitTest$1.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/ThreadWaitTest$1.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/ThreadWaitTest$2.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/ThreadWaitTest$2.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/ThreadWaitTest.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/ThreadWaitTest.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/ThreeStooges.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/thread/ThreeStooges.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/util/HashMapTest.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/util/HashMapTest.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/util/HashTableTest.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/util/HashTableTest.class" />
+      <change beforePath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/util/MyHashMap.class" afterPath="$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/util/MyHashMap.class" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/GC/target/" />
@@ -25,9 +51,111 @@
       <file leaf-file-name="ConcurrentHashMap.java" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6909">
-              <caret line="294" column="22" lean-forward="true" selection-start-line="294" selection-start-column="22" selection-end-line="294" selection-end-column="22" />
+            <state relative-caret-position="47712">
+              <caret line="2360" column="5" lean-forward="false" selection-start-line="2360" selection-start-column="5" selection-end-line="2360" selection-end-column="5" />
+              <folding>
+                <element signature="e#32334#32335#0" expanded="true" />
+                <element signature="e#32385#32386#0" expanded="true" />
+                <element signature="e#44347#44348#0" expanded="true" />
+                <element signature="e#44395#44396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyHashMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/MyHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Unsafe.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding>
+                <marker date="1500433929406" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1500433929406" expanded="false" signature="132:297" ph="..." />
+                <marker date="1500433929406" expanded="true" signature="1492:1499" ph="{}" />
+                <marker date="1500433929406" expanded="true" signature="1559:1787" ph="{...}" />
+                <marker date="1500433929406" expanded="true" signature="2950:2968" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="3029:3040" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="3077:3083" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="3089:3107" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="3179:3190" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="3226:3232" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="3238:3256" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="3323:3334" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="3374:3380" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="3386:3404" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="3482:3493" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="3532:3538" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="3544:3562" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="3631:3642" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="3683:3689" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="3695:3713" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="3793:3804" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="3844:3850" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="3856:3874" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="3937:3948" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="3986:3992" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="3998:4016" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="4090:4101" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="4138:4144" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="4150:4168" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="4233:4244" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="4283:4289" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="4295:4313" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="4389:4400" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="4438:4444" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="4450:4468" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="4531:4542" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="4580:4586" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="4592:4610" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="4684:4695" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="4732:4738" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="4744:4762" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="4825:4836" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="4874:4880" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="4886:4904" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="4978:4989" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="5026:5032" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="5038:5056" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="5121:5132" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="5171:5177" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="5183:5201" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="5277:5288" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="5326:5332" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="5338:5356" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="5423:5434" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="5474:5480" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="5486:5504" ph="/**...*/" />
+                <marker date="1500433929406" expanded="false" signature="5582:5593" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="5632:5638" ph=" }" />
+                <marker date="1500433929406" expanded="false" signature="6704:6715" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="6762:6768" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="6925:7003" ph="{...}" />
+                <marker date="1500433929406" expanded="true" signature="7056:7074" ph="/**...*/" />
+                <marker date="1500433929406" expanded="true" signature="7130:7264" ph="{...}" />
+                <marker date="1500433929406" expanded="true" signature="7270:7288" ph="/**...*/" />
+                <marker date="1500433929406" expanded="true" signature="7354:7634" ph="{...}" />
+                <marker date="1500433929406" expanded="true" signature="8424:8442" ph="/**...*/" />
+                <marker date="1500433929406" expanded="true" signature="8514:8532" ph="/**...*/" />
+                <marker date="1500433929406" expanded="true" signature="8603:8621" ph="/**...*/" />
+                <marker date="1500433929406" expanded="true" signature="10811:10996" ph="{...}" />
+                <marker date="1500433929406" expanded="true" signature="11069:11257" ph="{...}" />
+                <marker date="1500433929406" expanded="true" signature="11327:11505" ph="{...}" />
+                <marker date="1500433929406" expanded="true" signature="11578:11759" ph="{...}" />
+                <marker date="1500433929406" expanded="true" signature="11838:12025" ph="{...}" />
+                <marker date="1500433929406" expanded="false" signature="12188:12199" ph=" { " />
+                <marker date="1500433929406" expanded="false" signature="12230:12236" ph=" }" />
+                <marker date="1500433929406" expanded="true" signature="12249:13814" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,42 +163,64 @@
       <file leaf-file-name="ConcurrentHashMapTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/ConcurrentHashMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1345#1346#0" expanded="true" />
+                <element signature="e#1368#1369#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadLocal.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/lang/ThreadLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2835">
+              <caret line="180" column="42" lean-forward="true" selection-start-line="180" selection-start-column="42" selection-end-line="180" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashMapTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/HashMapTest.java">
+      <file leaf-file-name="ThreadLocalTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/ThreadLocalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="84">
+              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
               <folding>
-                <element signature="e#472#488#0" expanded="true" />
+                <element signature="e#120#414#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#1965#1966#0" expanded="true" />
+                <element signature="e#2005#2006#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LocalCacheTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GC/src/test/java/LocalCacheTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="616" column="31" lean-forward="true" selection-start-line="616" selection-start-column="31" selection-end-line="616" selection-end-column="31" />
-              <folding>
-                <element signature="e#19072#19073#0" expanded="true" />
-                <element signature="e#19130#19131#0" expanded="true" />
-                <element signature="e#19296#19297#0" expanded="true" />
-                <element signature="e#19379#19380#0" expanded="true" />
-                <element signature="e#24298#24299#0" expanded="true" />
-                <element signature="e#24363#24364#0" expanded="true" />
-                <element signature="e#66531#66532#0" expanded="true" />
-                <element signature="e#66588#66589#0" expanded="true" />
-                <element signature="e#66702#66703#0" expanded="true" />
-                <element signature="e#66765#66766#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="42378">
+              <caret line="2089" column="32" lean-forward="false" selection-start-line="2089" selection-start-column="32" selection-end-line="2089" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,10 +254,14 @@
       <find>int index =</find>
       <find>int index</find>
       <find>tab[i = (n - 1) &amp; hash])</find>
+      <find>sizeCtl</find>
+      <find>compareAndSwapInt</find>
+      <find>threadLocal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -129,6 +283,11 @@
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/HashTableTest.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/MyHashMap.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/HashMapTest.java" />
+        <option value="$PROJECT_DIR$/GC/src/test/java/LocalCacheTest.java" />
+        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/LocalCache.java" />
+        <option value="$PROJECT_DIR$/GC/src/test/java/com/alibaba/dubbo/rpc/Protocol$Adaptive.java" />
+        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/ConcurrentHashMapTest.java" />
+        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/ThreadLocalTest.java" />
       </list>
     </option>
   </component>
@@ -138,12 +297,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="213" />
-    <option name="y" value="17" />
-    <option name="width" value="1523" />
-    <option name="height" value="1092" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="790" />
+    <option name="width" value="1133" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -159,9 +324,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,10 +391,15 @@
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
               <item name="GC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="GC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
@@ -262,7 +429,7 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
@@ -285,7 +452,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,6 +466,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.alibaba.dubbo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -309,13 +484,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HashMapTest">
+  <component name="RunManager" selected="Application.ThreadLocalTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="ConcurrentHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wyj.jvm.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.util.ConcurrentHashMapTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GC" />
+      <envs />
     </configuration>
     <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -336,14 +530,9 @@
       <module name="GC" />
       <envs />
     </configuration>
-    <configuration name="SynchronizedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wyj.jvm.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.thread.SynchronizedTest" />
+    <configuration name="LocalCacheTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="LocalCacheTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -355,33 +544,14 @@
       <module name="GC" />
       <envs />
     </configuration>
-    <configuration name="TestThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.wyj.jvm.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.thread.TestThreadPool" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GC" />
-      <envs />
-    </configuration>
-    <configuration name="ThreeStooges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wyj.jvm.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.thread.ThreeStooges" />
+      <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.thread.ThreadLocalTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -493,19 +663,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ThreeStooges" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestThreadPool" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SynchronizedTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.HashMapTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HashMapTest.testHashMap" />
+      <item index="0" class="java.lang.String" itemvalue="Application.HashMapTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.HashMapTest.testHashMap" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LocalCacheTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ConcurrentHashMapTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ThreadLocalTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HashMapTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HashMapTest.testHashMap" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SynchronizedTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestThreadPool" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ThreeStooges" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ThreadLocalTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ConcurrentHashMapTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LocalCacheTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HashMapTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HashMapTest.testHashMap" />
       </list>
     </recent_temporary>
   </component>
@@ -534,7 +704,11 @@
       <workItem from="1517794893693" duration="1000" />
       <workItem from="1517800384443" duration="38153000" />
       <workItem from="1519262655772" duration="15024000" />
-      <workItem from="1519299132528" duration="3786000" />
+      <workItem from="1519299132528" duration="32938000" />
+      <workItem from="1519696797824" duration="8274000" />
+      <workItem from="1523252648924" duration="1110000" />
+      <workItem from="1523438407580" duration="4275000" />
+      <workItem from="1524377794996" duration="3934000" />
     </task>
     <servers />
   </component>
@@ -571,39 +745,40 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199817000" />
+    <option name="totallyTimeSpent" value="246562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5005441" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13152175" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329806" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29270947" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19189766" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18336888" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15191898" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06876332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15652174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35038084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50108695" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,40 +791,28 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/HashMapTest.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/HashMap.java</url>
-          <line>610</line>
-          <properties />
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/HashMap.java</url>
-          <line>337</line>
-          <properties />
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/HashMap.java</url>
-          <line>625</line>
-          <properties />
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
-          <line>728</line>
+          <line>1021</line>
           <properties />
-          <option name="timeStamp" value="73" />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/ThreadLocalTest.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/ThreadLocalTest.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="74" />
+      <option name="time" value="80" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -673,66 +836,14 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/gc/OOMObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7581">
-          <caret line="388" column="39" lean-forward="false" selection-start-line="388" selection-start-column="39" selection-end-line="388" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/Hashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4557">
-          <caret line="252" column="25" lean-forward="true" selection-start-line="252" selection-start-column="25" selection-end-line="252" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/gc/FinalizeEscapeGC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/gc/OOMObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/ThreeStooges.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GC/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/concurrent/RejectedExecutionHandler.java">
@@ -760,6 +871,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding>
+            <element signature="e#2032#2033#0" expanded="false" />
+            <element signature="e#2060#2061#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -950,7 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,9 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-          <folding>
-            <element signature="e#8806#8807#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -999,34 +1110,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/MyHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="62" column="38" lean-forward="false" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6909">
-          <caret line="294" column="22" lean-forward="true" selection-start-line="294" selection-start-column="22" selection-end-line="294" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/ConcurrentHashMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,27 +1121,182 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#472#488#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/LocalCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="72" column="48" lean-forward="false" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="740" column="14" lean-forward="false" selection-start-line="740" selection-start-column="14" selection-end-line="740" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="616" column="31" lean-forward="true" selection-start-line="616" selection-start-column="31" selection-end-line="616" selection-end-column="31" />
+        <state relative-caret-position="42378">
+          <caret line="2089" column="32" lean-forward="false" selection-start-line="2089" selection-start-column="32" selection-end-line="2089" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding>
-            <element signature="e#19072#19073#0" expanded="true" />
-            <element signature="e#19130#19131#0" expanded="true" />
-            <element signature="e#19296#19297#0" expanded="true" />
-            <element signature="e#19379#19380#0" expanded="true" />
-            <element signature="e#24298#24299#0" expanded="true" />
-            <element signature="e#24363#24364#0" expanded="true" />
-            <element signature="e#66531#66532#0" expanded="true" />
-            <element signature="e#66588#66589#0" expanded="true" />
-            <element signature="e#66702#66703#0" expanded="true" />
-            <element signature="e#66765#66766#0" expanded="true" />
+            <marker date="1500433929406" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1500433929406" expanded="false" signature="132:297" ph="..." />
+            <marker date="1500433929406" expanded="true" signature="1492:1499" ph="{}" />
+            <marker date="1500433929406" expanded="true" signature="1559:1787" ph="{...}" />
+            <marker date="1500433929406" expanded="true" signature="2950:2968" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="3029:3040" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="3077:3083" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="3089:3107" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="3179:3190" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="3226:3232" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="3238:3256" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="3323:3334" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="3374:3380" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="3386:3404" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="3482:3493" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="3532:3538" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="3544:3562" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="3631:3642" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="3683:3689" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="3695:3713" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="3793:3804" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="3844:3850" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="3856:3874" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="3937:3948" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="3986:3992" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="3998:4016" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="4090:4101" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="4138:4144" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="4150:4168" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="4233:4244" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="4283:4289" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="4295:4313" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="4389:4400" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="4438:4444" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="4450:4468" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="4531:4542" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="4580:4586" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="4592:4610" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="4684:4695" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="4732:4738" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="4744:4762" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="4825:4836" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="4874:4880" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="4886:4904" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="4978:4989" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="5026:5032" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="5038:5056" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="5121:5132" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="5171:5177" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="5183:5201" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="5277:5288" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="5326:5332" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="5338:5356" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="5423:5434" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="5474:5480" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="5486:5504" ph="/**...*/" />
+            <marker date="1500433929406" expanded="false" signature="5582:5593" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="5632:5638" ph=" }" />
+            <marker date="1500433929406" expanded="false" signature="6704:6715" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="6762:6768" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="6925:7003" ph="{...}" />
+            <marker date="1500433929406" expanded="true" signature="7056:7074" ph="/**...*/" />
+            <marker date="1500433929406" expanded="true" signature="7130:7264" ph="{...}" />
+            <marker date="1500433929406" expanded="true" signature="7270:7288" ph="/**...*/" />
+            <marker date="1500433929406" expanded="true" signature="7354:7634" ph="{...}" />
+            <marker date="1500433929406" expanded="true" signature="8424:8442" ph="/**...*/" />
+            <marker date="1500433929406" expanded="true" signature="8514:8532" ph="/**...*/" />
+            <marker date="1500433929406" expanded="true" signature="8603:8621" ph="/**...*/" />
+            <marker date="1500433929406" expanded="true" signature="10811:10996" ph="{...}" />
+            <marker date="1500433929406" expanded="true" signature="11069:11257" ph="{...}" />
+            <marker date="1500433929406" expanded="true" signature="11327:11505" ph="{...}" />
+            <marker date="1500433929406" expanded="true" signature="11578:11759" ph="{...}" />
+            <marker date="1500433929406" expanded="true" signature="11838:12025" ph="{...}" />
+            <marker date="1500433929406" expanded="false" signature="12188:12199" ph=" { " />
+            <marker date="1500433929406" expanded="false" signature="12230:12236" ph=" }" />
+            <marker date="1500433929406" expanded="true" signature="12249:13814" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47712">
+          <caret line="2360" column="5" lean-forward="false" selection-start-line="2360" selection-start-column="5" selection-end-line="2360" selection-end-column="5" />
+          <folding>
+            <element signature="e#32334#32335#0" expanded="true" />
+            <element signature="e#32385#32386#0" expanded="true" />
+            <element signature="e#44347#44348#0" expanded="true" />
+            <element signature="e#44395#44396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/MyHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/test/java/com/alibaba/dubbo/rpc/Protocol$Adaptive.java" />
+    <entry file="file://$PROJECT_DIR$/GC/src/test/java/LocalCacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2835">
+          <caret line="180" column="42" lean-forward="true" selection-start-line="180" selection-start-column="42" selection-end-line="180" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/ConcurrentHashMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/ThreadLocalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#120#414#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#2005#2006#0" expanded="true" />
           </folding>
         </state>
       </provider>

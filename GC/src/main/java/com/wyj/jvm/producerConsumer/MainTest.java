@@ -29,6 +29,12 @@ public class MainTest {
         cachePool.execute(c1);
         cachePool.execute(c2);
         cachePool.execute(c3);
+//        c1.run();
+//        c2.run();
+//        c3.run();
+//        p1.run();
+//        p2.run();
+//        p3.run();
 
         try {
             Thread.sleep(3000);

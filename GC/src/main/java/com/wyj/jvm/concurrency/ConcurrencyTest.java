@@ -1,10 +1,18 @@
 package com.wyj.jvm.concurrency;
 
+/**
+ * Created by wyj on 2017/9/1
+ */
 public class ConcurrencyTest {
 
     private static final long count = 100001;
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException{
+        concurrency();
+        serial();
+    }
+
+    private static void concurrency() throws InterruptedException {
         long start = System.currentTimeMillis();
         Thread thread = new Thread(new Runnable() {
             @Override

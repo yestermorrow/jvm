@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37c573e7-750d-4db9-9d3f-7277087b9dcd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/deadLock/DeadLockDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/deadLock/DeadLockDemo.java" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/deadLock/DeadLockDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,8 +47,8 @@
       <file leaf-file-name="DeadLockDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/deadLock/DeadLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="80">
+              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -528,7 +528,7 @@
       <workItem from="1527572200957" duration="599000" />
       <workItem from="1527573802191" duration="599000" />
       <workItem from="1535977004705" duration="3236000" />
-      <workItem from="1536026027265" duration="5194000" />
+      <workItem from="1536026027265" duration="5810000" />
     </task>
     <task id="LOCAL-00001" summary="ThreadLocalTest">
       <created>1524388421606</created>
@@ -565,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535981885398</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="死锁">
+      <created>1536060270514</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1536060270514</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -601,7 +608,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="375771000" />
+    <option name="totallyTimeSpent" value="376387000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -656,7 +663,8 @@
     <MESSAGE value="ThreadLocalTest" />
     <MESSAGE value="生产者消费者" />
     <MESSAGE value="多线程性能测试Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程性能测试Test" />
+    <MESSAGE value="死锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="死锁" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -911,8 +919,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/deadLock/DeadLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="80">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>

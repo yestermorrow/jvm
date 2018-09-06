@@ -21,7 +21,7 @@ public class Counter {
             Thread t = new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    for (int i = 0; i < 1000; i++) {
+                    for (int i = 0; i < 100000; i++) {
                         cas.count();
                         cas.safeCount();
                     }
@@ -35,6 +35,7 @@ public class Counter {
         // 等待所有线程执行完成
         for (Thread t : ts) {
             try {
+                // join()方法表示t线程单独运行，其他线程进入阻塞模式
                 t.join();
             } catch (InterruptedException e) {
                 e.printStackTrace();

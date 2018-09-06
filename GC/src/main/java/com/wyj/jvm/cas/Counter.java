@@ -6,6 +6,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Created by wyj on 2018/9/6
+ *
+ * 基于CAS线程安全的计数方法safeCount和一个非线程安全的计数器count
  */
 public class Counter {
 

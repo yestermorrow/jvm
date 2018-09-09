@@ -4,6 +4,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * Cteated by wyj on 2017/9/9
+ *
  */
 public class AtomicBooleanTest implements Runnable{
 

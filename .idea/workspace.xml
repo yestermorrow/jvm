@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37c573e7-750d-4db9-9d3f-7277087b9dcd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/BeanUtilsTest/CopyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/BeanUtilsTest/UserSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/BeanUtilsTest/UserTarget.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/SynchronizationTool/Synchronized.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GC/GC.iml" afterPath="$PROJECT_DIR$/GC/GC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GC/pom.xml" afterPath="$PROJECT_DIR$/GC/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CopyTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CopyTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/BeanUtilsTest/CopyTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="32" />
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,8 +80,18 @@
       <file leaf-file-name="BeanUtils.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="664" column="0" lean-forward="false" selection-start-line="664" selection-start-column="0" selection-end-line="664" selection-end-column="0" />
+            <state relative-caret-position="438">
+              <caret line="679" column="69" lean-forward="true" selection-start-line="679" selection-start-column="69" selection-end-line="679" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Synchronized.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/SynchronizationTool/Synchronized.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -188,6 +194,7 @@
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/BeanUtilsTest/UserTarget.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/BeanUtilsTest/UserSource.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/BeanUtilsTest/CopyTest.java" />
+        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/SynchronizationTool/Synchronized.java" />
       </list>
     </option>
   </component>
@@ -291,7 +298,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="BeanUtilsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="SynchronizationTool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
@@ -570,7 +577,7 @@
       <workItem from="1536306447842" duration="113000" />
       <workItem from="1536394803829" duration="5626000" />
       <workItem from="1536493312253" duration="770000" />
-      <workItem from="1536543075355" duration="4260000" />
+      <workItem from="1536543075355" duration="7324000" />
     </task>
     <task id="LOCAL-00001" summary="ThreadLocalTest">
       <created>1524388421606</created>
@@ -656,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536493808489</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="BeanUtils.copyProperties">
+      <created>1536565710661</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1536565710661</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -692,7 +706,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392588000" />
+    <option name="totallyTimeSpent" value="395652000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,19 +729,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18976545" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09549356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.444206" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45164835" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11782662" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17765568" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18496802" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23175965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23175965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -751,7 +765,8 @@
     <MESSAGE value="死锁" />
     <MESSAGE value="基于CAS线程安全的计数器方法safeCount和一个非线程安全的计数器count" />
     <MESSAGE value="compareAndSet(true,false)锁机制" />
-    <option name="LAST_COMMIT_MESSAGE" value="compareAndSet(true,false)锁机制" />
+    <MESSAGE value="BeanUtils.copyProperties" />
+    <option name="LAST_COMMIT_MESSAGE" value="BeanUtils.copyProperties" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -820,7 +835,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/jre/lib/rt.jar!/sun/misc/Unsafe.class" />
     <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/util/MyHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1087,18 +1101,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/BeanUtilsTest/CopyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="664" column="0" lean-forward="false" selection-start-line="664" selection-start-column="0" selection-end-line="664" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/BeanUtilsTest/CopyTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE-sources.jar!/org/springframework/beans/BeanUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="438">
+          <caret line="679" column="69" lean-forward="true" selection-start-line="679" selection-start-column="69" selection-end-line="679" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/SynchronizationTool/Synchronized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

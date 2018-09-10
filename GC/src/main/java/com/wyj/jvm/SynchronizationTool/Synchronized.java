@@ -14,5 +14,6 @@ public class Synchronized {
     }
 
     public static synchronized void m() {
+        Object lock = new Object();
     }
 }

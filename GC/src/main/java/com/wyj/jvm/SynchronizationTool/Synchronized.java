@@ -2,6 +2,7 @@ package com.wyj.jvm.SynchronizationTool;
 
 /**
  * Created by wyj on 2018/9/10
+ *
  */
 public class Synchronized {
 

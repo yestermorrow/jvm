@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Created by wyj on 2018/9/13
+ *
  */
 public class WaitNotify {
 

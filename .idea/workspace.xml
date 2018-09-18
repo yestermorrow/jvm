@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37c573e7-750d-4db9-9d3f-7277087b9dcd" name="Default" comment="WaitNotify">
+      <change afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/ReentrantLock/ReentrantLockTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,50 +35,83 @@
     <session id="245170765">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="982" />
+          <entry key="java" value="1212" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="982" />
+          <entry key="JAVA" value="1212" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/waitNotify/WaitNotify.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="547">
+              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="105" column="26" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/ReentrantLock/ReentrantLockTest1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23720">
+              <caret line="1241" column="25" selection-start-line="1241" selection-start-column="25" selection-end-line="1241" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -167,6 +201,7 @@
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/BeanUtilsTest/CopyTest.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/SynchronizationTool/Synchronized.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/waitNotify/WaitNotify.java" />
+        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/ReentrantLock/ReentrantLockTest1.java" />
       </list>
     </option>
   </component>
@@ -198,6 +233,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="23" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -209,8 +245,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,11 +255,6 @@
             <path>
               <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
               <item name="GC" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -260,19 +289,24 @@
             </path>
             <path>
               <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="GC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="lock&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java&#10;ArrayB&#9;FILE&#9;jar://D:/software/java/jdk1.8.0/src.zip!/java/util/concurrent/ArrayBlockingQueue.java&#10;Blo&#9;FILE&#9;jar://D:/software/java/jdk1.8.0/src.zip!/java/util/concurrent/BlockingQueue.java" />
+    <property name="SearchEverywhereHistoryKey" value="Reen&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lock&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java&#10;ArrayB&#9;FILE&#9;jar://D:/software/java/jdk1.8.0/src.zip!/java/util/concurrent/ArrayBlockingQueue.java&#10;Blo&#9;FILE&#9;jar://D:/software/java/jdk1.8.0/src.zip!/java/util/concurrent/BlockingQueue.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536849092893" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537274980259" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -296,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CopyTest">
+  <component name="RunManager" selected="Application.ReentrantLockTest1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -333,20 +367,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.BeanUtilsTest.CopyTest" />
-      <module name="GC" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wyj.jvm.BeanUtilsTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CyclicBarrierTaskTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.SynchronizationTool.CyclicBarrierTaskTest" />
       <module name="GC" />
@@ -368,6 +388,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wyj.jvm.deadLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantLockTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.ReentrantLock.ReentrantLockTest1" />
+      <module name="GC" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wyj.jvm.ReentrantLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -407,19 +441,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CopyTest" />
       <item itemvalue="Application.ConcurrencyTest" />
       <item itemvalue="Application.CyclicBarrierTaskTest" />
       <item itemvalue="Application.AtomicBooleanTest" />
       <item itemvalue="Application.DeadLockDemo" />
+      <item itemvalue="Application.ReentrantLockTest1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReentrantLockTest1" />
         <item itemvalue="Application.DeadLockDemo" />
         <item itemvalue="Application.AtomicBooleanTest" />
         <item itemvalue="Application.CyclicBarrierTaskTest" />
         <item itemvalue="Application.ConcurrencyTest" />
-        <item itemvalue="Application.CopyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -471,7 +505,9 @@
       <workItem from="1536819787178" duration="6817000" />
       <workItem from="1536898389479" duration="595000" />
       <workItem from="1536937377903" duration="597000" />
-      <workItem from="1537003104544" duration="364000" />
+      <workItem from="1537003104544" duration="601000" />
+      <workItem from="1537148297073" duration="2466000" />
+      <workItem from="1537261377971" duration="1864000" />
     </task>
     <task id="LOCAL-00001" summary="ThreadLocalTest">
       <created>1524388421606</created>
@@ -599,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536830139748</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="WaitNotify">
+      <created>1537104284583</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1537104284584</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -635,7 +678,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="413377000" />
+    <option name="totallyTimeSpent" value="417944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -647,15 +690,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="1" />
+    <frame x="23" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.16361417" />
-      <window_info id="Structure" order="5" weight="0.18496802" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.16544567" />
+      <window_info id="Structure" order="5" weight="0.18620269" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32934782" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.29399142" />
@@ -765,27 +808,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/concurrent/atomic/AtomicInteger.java" />
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/ThreadLocalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-          <folding>
-            <element signature="e#842#843#0" />
-            <element signature="e#882#883#0" />
-            <element signature="e#1965#1966#0" />
-            <element signature="e#2005#2006#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/test/java/LocalCacheTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/HashMap.java" />
     <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/lang/ThreadLocal.java" />
     <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/concurrent/TimeUnit.java" />
@@ -990,13 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2120">
-          <caret line="106" column="9" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GC/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
@@ -1025,10 +1040,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23720">
+          <caret line="1241" column="25" selection-start-line="1241" selection-start-column="25" selection-end-line="1241" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/waitNotify/WaitNotify.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="547">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="105" column="26" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/ReentrantLock/ReentrantLockTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

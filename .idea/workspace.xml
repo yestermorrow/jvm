@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37c573e7-750d-4db9-9d3f-7277087b9dcd" name="Default" comment="WaitNotify">
-      <change afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/ReentrantLock/ReentrantLockTest1.java" afterDir="false" />
+    <list default="true" id="37c573e7-750d-4db9-9d3f-7277087b9dcd" name="Default" comment="ReentrantLock">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/ReentrantLock/ReentrantLockTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/ReentrantLock/ReentrantLockTest1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,13 +60,13 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1212" />
+          <entry key="java" value="1244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1212" />
+          <entry key="JAVA" value="1244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -98,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/ReentrantLock/ReentrantLockTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="287">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -306,7 +306,7 @@
     <property name="SearchEverywhereHistoryKey" value="Reen&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lock&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java&#10;ArrayB&#9;FILE&#9;jar://D:/software/java/jdk1.8.0/src.zip!/java/util/concurrent/ArrayBlockingQueue.java&#10;Blo&#9;FILE&#9;jar://D:/software/java/jdk1.8.0/src.zip!/java/util/concurrent/BlockingQueue.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537274980259" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537276071711" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -507,7 +507,7 @@
       <workItem from="1536937377903" duration="597000" />
       <workItem from="1537003104544" duration="601000" />
       <workItem from="1537148297073" duration="2466000" />
-      <workItem from="1537261377971" duration="1864000" />
+      <workItem from="1537261377971" duration="2838000" />
     </task>
     <task id="LOCAL-00001" summary="ThreadLocalTest">
       <created>1524388421606</created>
@@ -642,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537104284584</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ReentrantLock">
+      <created>1537275005596</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1537275005596</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -678,7 +685,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="417944000" />
+    <option name="totallyTimeSpent" value="418918000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -697,7 +704,7 @@
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.16544567" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.16544567" />
       <window_info id="Structure" order="5" weight="0.18620269" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32934782" />
@@ -706,7 +713,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3251073" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32406417" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.23175965" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -741,7 +748,8 @@
     <MESSAGE value="BeanUtils.copyProperties" />
     <MESSAGE value="synchronized" />
     <MESSAGE value="WaitNotify" />
-    <option name="LAST_COMMIT_MESSAGE" value="WaitNotify" />
+    <MESSAGE value="ReentrantLock" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReentrantLock" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1073,8 +1081,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/ReentrantLock/ReentrantLockTest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        <state relative-caret-position="287">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

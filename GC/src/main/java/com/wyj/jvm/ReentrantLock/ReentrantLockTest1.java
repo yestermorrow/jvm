@@ -1,25 +1,34 @@
 package com.wyj.jvm.ReentrantLock;
 
-import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by wyj on 2018/9/18
  */
-public class ReentrantLockTest1 {
+public class ReentrantLockTest1 implements Runnable{
 
-    private Lock lock = new ReentrantLock();
-
-    public void testMethod() {
-        lock.lock();
-        for (int i = 0; i < 5; i++) {
-            System.out.println("ThreadName=" + Thread.currentThread().getName() + (" " + (i + 1)));
+    public static ReentrantLock lock = new ReentrantLock();
+    public static int i = 0;
+    public void run() {
+        for (int j = 0;j<100000;j++) {
+            lock.lock();
+//            lock.lock();
+            try {
+                i++;
+            }finally {
+                lock.unlock();
+//                lock.unlock();
+            }
         }
-        lock.unlock();
     }
-
-    public static void main(String[] args) {
-        ReentrantLockTest1 reentrantLockTest1 = new ReentrantLockTest1();
-        reentrantLockTest1.testMethod();
+    public static void main(String[] args) throws InterruptedException {
+        ReentrantLockTest1 reenterLock = new ReentrantLockTest1();
+        Thread t1 = new Thread(reenterLock);
+        Thread t2 = new Thread(reenterLock);
+        t1.start();
+        t2.start();
+        t1.join();
+        t2.join();
+        System.out.println(i);
     }
 }

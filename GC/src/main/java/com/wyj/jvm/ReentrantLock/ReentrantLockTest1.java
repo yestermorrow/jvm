@@ -13,9 +13,11 @@ public class ReentrantLockTest1 implements Runnable{
         for (int j = 0;j<100000;j++) {
             lock.lock();
 //            lock.lock();
+            System.out.println(i + "进去lock");
             try {
                 i++;
             }finally {
+                System.out.println(i + "进去unlock");
                 lock.unlock();
 //                lock.unlock();
             }
@@ -27,8 +29,8 @@ public class ReentrantLockTest1 implements Runnable{
         Thread t2 = new Thread(reenterLock);
         t1.start();
         t2.start();
-        t1.join();
-        t2.join();
+//        t1.join();
+//        t2.join();
         System.out.println(i);
     }
 }

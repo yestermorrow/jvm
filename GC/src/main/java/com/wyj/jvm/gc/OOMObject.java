@@ -22,6 +22,5 @@ public class OOMObject {
     }
     public static void main(String[] args) throws Exception {
         fillHeap(1000);
-        JSONArray jsonArray =
     }
 }

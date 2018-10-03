@@ -1,5 +1,7 @@
 package com.wyj.jvm.gc;
 
+import com.alibaba.fastjson.JSONArray;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,5 +22,6 @@ public class OOMObject {
     }
     public static void main(String[] args) throws Exception {
         fillHeap(1000);
+        JSONArray jsonArray =
     }
 }

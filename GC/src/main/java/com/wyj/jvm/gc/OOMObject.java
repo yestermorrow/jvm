@@ -1,7 +1,5 @@
 package com.wyj.jvm.gc;
 
-import com.alibaba.fastjson.JSONArray;
-
 import java.util.ArrayList;
 import java.util.List;
 

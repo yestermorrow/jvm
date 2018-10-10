@@ -1,5 +1,6 @@
 package com.wyj.jvm.gc;
 
+import java.lang.management.ThreadMXBean;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,6 +18,7 @@ public class OOMObject {
             list.add(new OOMObject1());
         }
         System.gc();
+        ThreadMXBean
     }
     public static void main(String[] args) throws Exception {
         fillHeap(1000);

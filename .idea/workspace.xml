@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37c573e7-750d-4db9-9d3f-7277087b9dcd" name="Default" comment="ReentrantLock">
+    <list default="true" id="37c573e7-750d-4db9-9d3f-7277087b9dcd" name="Default" comment="ThreadMXBean">
+      <change afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/MultiThread/MultiThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/gc/OOMObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/gc/OOMObject.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,46 +36,49 @@
     <session id="245170765">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="8" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1499" />
+          <entry key="java" value="1883" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1499" />
+          <entry key="JAVA" value="1883" />
+          <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -93,11 +98,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/gc/OOMObject.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/MultiThread/MultiThread.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -227,6 +244,7 @@
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/waitNotify/WaitNotify.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/ReentrantLock/ReentrantLockTest1.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/gc/OOMObject.java" />
+        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/MultiThread/MultiThread.java" />
       </list>
     </option>
   </component>
@@ -257,11 +275,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1680" />
-    <option name="y" value="-392" />
-    <option name="width" value="1680" />
-    <option name="height" value="956" />
+    <option name="y" value="-415" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -269,6 +287,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -316,26 +337,6 @@
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
               <item name="GC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="cas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="GC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="gc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="GC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -364,16 +365,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Reen&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lock&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java&#10;ArrayB&#9;FILE&#9;jar://D:/software/java/jdk1.8.0/src.zip!/java/util/concurrent/ArrayBlockingQueue.java&#10;Blo&#9;FILE&#9;jar://D:/software/java/jdk1.8.0/src.zip!/java/util/concurrent/BlockingQueue.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537527859681" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539225958267" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -397,7 +395,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReentrantLockTest1">
+  <component name="RunManager" selected="Application.MultiThread">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -413,20 +411,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wyj.jvm.cas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConcurrencyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.concurrency.ConcurrencyTest" />
-      <module name="GC" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wyj.jvm.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -455,6 +439,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wyj.jvm.deadLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.MultiThread.MultiThread" />
+      <module name="GC" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wyj.jvm.MultiThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -508,19 +506,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConcurrencyTest" />
       <item itemvalue="Application.CyclicBarrierTaskTest" />
       <item itemvalue="Application.AtomicBooleanTest" />
       <item itemvalue="Application.DeadLockDemo" />
       <item itemvalue="Application.ReentrantLockTest1" />
+      <item itemvalue="Application.MultiThread" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiThread" />
         <item itemvalue="Application.ReentrantLockTest1" />
         <item itemvalue="Application.DeadLockDemo" />
         <item itemvalue="Application.AtomicBooleanTest" />
         <item itemvalue="Application.CyclicBarrierTaskTest" />
-        <item itemvalue="Application.ConcurrencyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -584,6 +582,8 @@
       <workItem from="1538962731446" duration="663000" />
       <workItem from="1539049603759" duration="2149000" />
       <workItem from="1539135412584" duration="598000" />
+      <workItem from="1539179484142" duration="97000" />
+      <workItem from="1539221594392" duration="3180000" />
     </task>
     <task id="LOCAL-00001" summary="ThreadLocalTest">
       <created>1524388421606</created>
@@ -753,7 +753,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539088254733</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="ThreadMXBean">
+      <created>1539179542477</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1539179542477</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -789,7 +796,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="449005000" />
+    <option name="totallyTimeSpent" value="452282000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,14 +808,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1640" y="23" width="1680" height="956" extended-state="0" />
+    <frame x="1680" y="-392" width="1920" height="1051" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.13980465" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.14217253" />
       <window_info id="Structure" order="5" weight="0.18620269" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32934782" />
@@ -817,7 +824,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.062032085" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.07612096" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.23175965" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -853,7 +860,8 @@
     <MESSAGE value="synchronized" />
     <MESSAGE value="WaitNotify" />
     <MESSAGE value="ReentrantLock" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReentrantLock" />
+    <MESSAGE value="ThreadMXBean" />
+    <option name="LAST_COMMIT_MESSAGE" value="ThreadMXBean" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -926,7 +934,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/concurrent/TimeUnit.java" />
     <entry file="jar://$PROJECT_DIR$/../../../java/jdk1.8.0/src.zip!/java/util/AbstractQueue.java" />
     <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/producerConsumer/Plate.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1203,8 +1210,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/gc/OOMObject.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/MultiThread/MultiThread.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

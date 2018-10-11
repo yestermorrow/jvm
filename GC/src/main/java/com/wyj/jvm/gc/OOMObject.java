@@ -18,7 +18,6 @@ public class OOMObject {
             list.add(new OOMObject1());
         }
         System.gc();
-        ThreadMXBean
     }
     public static void main(String[] args) throws Exception {
         fillHeap(1000);

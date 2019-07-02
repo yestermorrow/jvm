@@ -28,9 +28,12 @@ public class DemoLock implements Lock {
     public void unlock() { // 拿到锁的线程运行这个方法
         if (owner.compareAndSet(Thread.currentThread(), null)) {
             // 释放锁之后，要唤醒线程(所有 -- 惊群效应)
-            for (Thread waiter : waiters) {
-                LockSupport.unpark(waiter);
-            }
+//            for (Thread waiter : waiters) {
+//                LockSupport.unpark(waiter);
+//            }
+            Thread next = waiters.poll();
+            waiters.peek();
+            LockSupport.unpark(next);
         }
     }
 

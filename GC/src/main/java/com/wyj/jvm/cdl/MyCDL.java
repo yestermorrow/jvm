@@ -10,8 +10,6 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.LockSupport;
 
-// 优化--C++,运行时，只能推论
-// sync对象监视器的原理 owner
 public class MyCDL {
     AtomicInteger count = null; // 共享资源 -- 可以被一定数量线程
     // 需要锁池

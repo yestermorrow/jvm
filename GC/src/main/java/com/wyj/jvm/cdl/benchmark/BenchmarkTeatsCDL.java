@@ -14,14 +14,14 @@ public class BenchmarkTeatsCDL {
         for(int i =0; i < 2000; i++) {
             new Thread(() -> {
                 try {
-                    countDownLatch.await();// 等待计数器归0
+                    countDownLatch.countDown();// -1
                     // TODO 并发执行这段代码
                     // service.method;
+                    countDownLatch.await(); // 等待计数器归0
                 } catch (Exception e) {
 
                 }
             }).start();
-            countDownLatch.countDown(); // -1
         }
 
     }

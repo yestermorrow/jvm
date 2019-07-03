@@ -1,6 +1,7 @@
 package com.wyj.jvm.cdl;
 
-import com.study.lock.aqs.AQSdemo;
+
+import com.wyj.jvm.AQSdemo;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicInteger;

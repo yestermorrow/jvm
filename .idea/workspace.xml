@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37c573e7-750d-4db9-9d3f-7277087b9dcd" name="Default" comment="自写同步工具">
-      <change afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/ConcurrentHashMap1_7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/ConcurrentHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/ConcurrentModificationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/ConcurrentSkipListMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/ConcurrentSkipListMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/HashMap17Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/HashMap1_7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/HashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/HashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/ObjectHashMapDemo.java" afterDir="false" />
+    <list default="true" id="37c573e7-750d-4db9-9d3f-7277087b9dcd" name="Default" comment="hashmap">
+      <change afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,13 +40,13 @@
     <session id="245170765">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="37" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
@@ -76,169 +67,110 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="40" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="64" />
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="4" />
-          <entry key="java" value="64" />
+          <entry key="class" value="5" />
+          <entry key="java" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4156" />
-          <entry key="txt" value="59" />
+          <entry key="java" value="4188" />
+          <entry key="txt" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4156" />
-          <entry key="PLAIN_TEXT" value="59" />
+          <entry key="JAVA" value="4188" />
+          <entry key="PLAIN_TEXT" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.72935104">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="740" column="7" lean-forward="true" selection-start-line="740" selection-start-column="7" selection-end-line="740" selection-end-column="7" />
-                  <folding>
-                    <element signature="e#22675#22676#0" expanded="true" />
-                    <element signature="e#22703#22704#0" expanded="true" />
-                    <element signature="e#22933#22934#0" expanded="true" />
-                    <element signature="e#22965#22966#0" expanded="true" />
-                    <element signature="e#41392#41393#0" expanded="true" />
-                    <element signature="e#41449#41450#0" expanded="true" />
-                    <element signature="e#45599#45600#0" expanded="true" />
-                    <element signature="e#45656#45657#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/HashMap1_7.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret line="582" lean-forward="true" selection-start-line="582" selection-end-line="582" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/HashMap17Test.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/HashMapTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="424">
-                  <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="658" column="13" lean-forward="true" selection-start-line="658" selection-start-column="13" selection-end-line="658" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#19327#19328#0" expanded="true" />
-                    <element signature="e#19410#19411#0" expanded="true" />
-                    <element signature="e#24329#24330#0" expanded="true" />
-                    <element signature="e#24394#24395#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5000">
-                  <caret line="290" column="21" selection-start-line="290" selection-start-column="13" selection-end-line="290" selection-end-column="26" />
-                  <folding>
-                    <element signature="e#5229#5230#0" expanded="true" />
-                    <element signature="e#5268#5269#0" expanded="true" />
-                    <element signature="e#9899#9900#0" expanded="true" />
-                    <element signature="e#9936#9937#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1520">
-                  <caret line="110" column="7" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5700">
-                  <caret line="333" column="38" selection-start-line="333" selection-start-column="16" selection-end-line="333" selection-end-column="38" />
-                  <folding>
-                    <element signature="e#12004#12005#0" expanded="true" />
-                    <element signature="e#12041#12042#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/cdl/CDLdemo.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/HashMapTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="394">
-                  <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2220">
+              <caret line="157" column="27" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="34" />
+              <folding>
+                <element signature="e#4021#4022#0" expanded="true" />
+                <element signature="e#4085#4086#0" expanded="true" />
+                <element signature="e#4725#4726#0" expanded="true" />
+                <element signature="e#4793#4794#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6260">
+              <caret line="358" column="17" selection-start-line="358" selection-start-column="17" selection-end-line="358" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
+              <folding>
+                <element signature="e#1477#1478#0" expanded="true" />
+                <element signature="e#1533#1534#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -249,8 +181,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tab[i = (n - 1) &amp; hash])</find>
-      <find>sizeCtl</find>
       <find>compareAndSwapInt</find>
       <find>threadLocal</find>
       <find>\/\*\*\n         \* The number of entries in the table\.\n         \*\/</find>
@@ -279,6 +209,8 @@
       <find>table</find>
       <find>Entry</find>
       <find>next</find>
+      <find>for (int i = 0; i &lt; 2; i ++) {</find>
+      <find>volatile int i = 0;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -288,7 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/mock/MockObject.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/mock/MyFirstJMockitTest.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/rocketMqTest/ProducerTest.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/rocketMqTest/ConsumerTest.java" />
@@ -311,7 +242,6 @@
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/ReentrantLock/ReentrantLockTest1.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/gc/OOMObject.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/MultiThread/MultiThread.java" />
-        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockDemo.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockAtomicDemo.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockAdderDemo.java" />
@@ -339,6 +269,8 @@
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/HashMap1_7.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/HashMap17Test.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/HashMapTest.java" />
+        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java" />
+        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockDemo2.java" />
       </list>
     </option>
   </component>
@@ -381,9 +313,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -452,6 +382,38 @@
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
               <item name="GC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wyj" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="GC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wyj" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="GC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wyj" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="GC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -511,6 +473,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="wyj" type="462c0819:PsiDirectoryNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="GC" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wyj" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
               <item name="sync" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -523,6 +496,17 @@
               <item name="wyj" type="462c0819:PsiDirectoryNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
               <item name="SynchronizationTool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="GC" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wyj" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
@@ -587,13 +571,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="count&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java&#10;Abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;AtomicS&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicStampedReference&#10;LongAdder&#9;PSI&#9;JAVA://java.util.concurrent.atomic.LongAdder&#10;Reen&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lock&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java&#10;ArrayB&#9;FILE&#9;jar://D:/software/java/jdk1.8.0/src.zip!/java/util/concurrent/ArrayBlockingQueue.java&#10;Blo&#9;FILE&#9;jar://D:/software/java/jdk1.8.0/src.zip!/java/util/concurrent/BlockingQueue.java" />
+    <property name="SearchEverywhereHistoryKey" value="AtomicStampedReference&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java&#10;AtomicIn&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java&#10;LockDemo&#9;FILE&#9;file:///Users/wanyajing/IdeaProjects/jvm/GC/src/main/java/com/wyj/jvm/lock/LockDemo.java&#10;Vis&#9;FILE&#9;file:///Users/wanyajing/IdeaProjects/jvm/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java&#10;count&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java&#10;Abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;AtomicS&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicStampedReference&#10;LongAdder&#9;PSI&#9;JAVA://java.util.concurrent.atomic.LongAdder&#10;Reen&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lock&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java&#10;ArrayB&#9;FILE&#9;jar://D:/software/java/jdk1.8.0/src.zip!/java/util/concurrent/ArrayBlockingQueue.java&#10;Blo&#9;FILE&#9;jar://D:/software/java/jdk1.8.0/src.zip!/java/util/concurrent/BlockingQueue.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562896357733" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563155053733" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -630,7 +616,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HashMapTest">
+  <component name="RunManager" selected="Application.LockDemo2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -681,13 +667,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCDL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.cdl.MyCDL" />
+    <configuration name="LockDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.lock.LockDemo2" />
       <module name="GC" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wyj.jvm.cdl.*" />
+          <option name="PATTERN" value="com.wyj.jvm.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -695,13 +681,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.semaphore.SemaphoreDemo" />
+    <configuration name="VisibilityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.thread.VisibilityDemo" />
       <module name="GC" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wyj.jvm.semaphore.*" />
+          <option name="PATTERN" value="com.wyj.jvm.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -741,19 +727,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyCDL" />
-      <item itemvalue="Application.SemaphoreDemo" />
       <item itemvalue="Application.CDLdemo" />
       <item itemvalue="Application.HashMap17Test" />
       <item itemvalue="Application.HashMapTest" />
+      <item itemvalue="Application.VisibilityDemo" />
+      <item itemvalue="Application.LockDemo2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LockDemo2" />
+        <item itemvalue="Application.VisibilityDemo" />
         <item itemvalue="Application.HashMapTest" />
         <item itemvalue="Application.HashMap17Test" />
         <item itemvalue="Application.CDLdemo" />
-        <item itemvalue="Application.SemaphoreDemo" />
-        <item itemvalue="Application.MyCDL" />
       </list>
     </recent_temporary>
   </component>
@@ -841,7 +827,8 @@
       <workItem from="1562292172204" duration="3428000" />
       <workItem from="1562550390493" duration="576000" />
       <workItem from="1562743289423" duration="1332000" />
-      <workItem from="1562809719751" duration="14003000" />
+      <workItem from="1562809719751" duration="26931000" />
+      <workItem from="1563155228294" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="ThreadLocalTest">
       <created>1524388421606</created>
@@ -1067,7 +1054,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562134149245</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="hashmap">
+      <created>1562897446020</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1562897446020</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1103,7 +1097,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="555718000" />
+    <option name="totallyTimeSpent" value="569243000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1118,8 +1112,8 @@
     <frame x="28" y="23" width="1606" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16503668" />
-      <window_info id="Structure" order="1" visible="true" weight="0.13299233" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16687979" />
+      <window_info id="Structure" order="1" weight="0.13299233" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -1128,12 +1122,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3291714" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.23155504" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23155504" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.44040862" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.75936437" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -1172,7 +1166,8 @@
     <MESSAGE value="自己写个lock" />
     <MESSAGE value="高并发test" />
     <MESSAGE value="自写同步工具" />
-    <option name="LAST_COMMIT_MESSAGE" value="自写同步工具" />
+    <MESSAGE value="hashmap" />
+    <option name="LAST_COMMIT_MESSAGE" value="hashmap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1220,12 +1215,6 @@
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockDemo1.java</url>
           <line>35</line>
           <properties />
@@ -1262,16 +1251,10 @@
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java</url>
-          <line>681</line>
+          <url>file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java</url>
+          <line>22</line>
           <properties />
-          <option name="timeStamp" value="114" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java</url>
-          <line>627</line>
-          <properties />
-          <option name="timeStamp" value="115" />
+          <option name="timeStamp" value="116" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1303,7 +1286,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/ReentrantLock/ReentrantLockTest1.java" />
     <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/waitNotify/WaitNotify.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1325,13 +1307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/lock/LockDemo.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1342,45 +1317,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockAtomicDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="5" column="49" lean-forward="true" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="185" column="30" lean-forward="true" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="359" column="12" lean-forward="true" selection-start-line="359" selection-start-column="12" selection-end-line="359" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/LongAdder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LongAdderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -1419,13 +1359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/demo/ConcurrentStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GC/target/classes/com/wyj/jvm/SynchronizationTool/CyclicBarrierTask.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1454,31 +1387,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/DemoLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="74" column="5" selection-start-line="72" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockDemo3.java" />
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/lock/LockDemo3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1575,12 +1484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5000">
           <caret line="290" column="21" selection-start-line="290" selection-start-column="13" selection-end-line="290" selection-end-column="26" />
-          <folding>
-            <element signature="e#5229#5230#0" expanded="true" />
-            <element signature="e#5268#5269#0" expanded="true" />
-            <element signature="e#9899#9900#0" expanded="true" />
-            <element signature="e#9936#9937#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1595,10 +1498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5700">
           <caret line="333" column="38" selection-start-line="333" selection-start-column="16" selection-end-line="333" selection-end-column="38" />
-          <folding>
-            <element signature="e#12004#12005#0" expanded="true" />
-            <element signature="e#12041#12042#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1606,9 +1505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1616,13 +1512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="348" column="40" selection-start-line="348" selection-start-column="40" selection-end-line="348" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/HashMap17Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1640,23 +1529,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="658" column="13" lean-forward="true" selection-start-line="658" selection-start-column="13" selection-end-line="658" selection-end-column="13" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-            <element signature="e#24329#24330#0" expanded="true" />
-            <element signature="e#24394#24395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="740" column="7" lean-forward="true" selection-start-line="740" selection-start-column="7" selection-end-line="740" selection-end-column="7" />
+        <state relative-caret-position="110">
+          <caret line="744" column="19" lean-forward="true" selection-start-line="744" selection-start-column="19" selection-end-line="744" selection-end-column="19" />
           <folding>
             <element signature="e#22675#22676#0" expanded="true" />
             <element signature="e#22703#22704#0" expanded="true" />
@@ -1666,6 +1542,114 @@
             <element signature="e#41449#41450#0" expanded="true" />
             <element signature="e#45599#45600#0" expanded="true" />
             <element signature="e#45656#45657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/juc/map/HashMap17Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="681" selection-start-line="681" selection-end-line="681" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/DemoLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockAtomicDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LongAdderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/demo/ConcurrentStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="157" column="27" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="34" />
+          <folding>
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4085#4086#0" expanded="true" />
+            <element signature="e#4725#4726#0" expanded="true" />
+            <element signature="e#4793#4794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6260">
+          <caret line="358" column="17" selection-start-line="358" selection-start-column="17" selection-end-line="358" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
+          <folding>
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
           </folding>
         </state>
       </provider>

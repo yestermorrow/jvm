@@ -3,7 +3,7 @@ package com.wyj.jvm.thread;
 import java.util.concurrent.TimeUnit;
 
 public class VisibilityDemo {
-    private volatile boolean flag = true;
+    private boolean flag = true;
 
     public static void main(String[] args) throws InterruptedException{
         VisibilityDemo demo1 = new VisibilityDemo();
@@ -13,6 +13,7 @@ public class VisibilityDemo {
             public void run() {
                 int i = 0;
                 while (demo1.flag){
+                    //while(true)
                     i++;
 //                    System.out.println(i);
                 }
@@ -20,7 +21,7 @@ public class VisibilityDemo {
             }
         });
         thread1.start();
-        TimeUnit.SECONDS.sleep(2);
+       TimeUnit.SECONDS.sleep(2);
         // 设置is为false；使上面的线程结束while循环
         demo1.flag = false;
         System.out.println("被置为false了");

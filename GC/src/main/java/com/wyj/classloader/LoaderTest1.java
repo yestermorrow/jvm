@@ -1,4 +1,4 @@
-package com.wyj.ckassloader;
+package com.wyj.classloader;
 
 import java.net.URL;
 import java.net.URLClassLoader;

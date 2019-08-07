@@ -1,4 +1,4 @@
-package com.wyj.ckassloader;
+package com.wyj.classloader;
 
 import java.io.IOException;
 

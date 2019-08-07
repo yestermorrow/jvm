@@ -1,4 +1,4 @@
-package com.wyj.ckassloader;
+package com.wyj.classloader;
 
 import java.net.URL;
 import java.net.URLClassLoader;
@@ -8,13 +8,14 @@ import java.net.URLClassLoader;
  */
 public class LoaderTest {
     public static void main(String[] args) throws Exception {
-        URL classUrl = new URL("file:D:\\");//jvm 类放在位置
+        URL classUrl = new URL("file:/Users/wanyajing/Desktop/");//jvm 类放在位置
 
         URLClassLoader parentLoader = new URLClassLoader(new URL[]{classUrl});
 
         while (true) {
+//            if (parentLoader == null) break;
             // 创建一个新的类加载器
-            URLClassLoader loader = new URLClassLoader(new URL[]{classUrl});
+            URLClassLoader loader = new URLClassLoader(new URL[]{classUrl}, parentLoader);
 
             // 问题：静态块触发
             Class clazz = loader.loadClass("HelloService");
@@ -28,11 +29,12 @@ public class LoaderTest {
             System.out.println();
 
             //  help gc  -verbose:class
-            newInstance = null;
-            loader = null;
+//            newInstance = null;
+//            loader = null;
 
         }
 
-        // System.gc();
+//         System.gc();
+//         Thread.sleep(10000L);
     }
 }

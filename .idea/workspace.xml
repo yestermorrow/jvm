@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37c573e7-750d-4db9-9d3f-7277087b9dcd" name="Default" comment="tuishui1">
-      <change afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/zuo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GC/src/main/java/com/wyj/ckassloader/ClassLoaderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/classloader/ClassLoaderView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GC/src/main/java/com/wyj/ckassloader/LoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/classloader/LoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GC/src/main/java/com/wyj/ckassloader/LoaderTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/classloader/LoaderTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GC/src/main/java/com/wyj/ckassloader/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GC/src/main/java/com/wyj/classloader/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,17 +43,17 @@
     <session id="245170765">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="50" />
+          <entry key="project.closed" value="53" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="2" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="3" />
           <entry key="project.open.time.24" value="1" />
@@ -71,34 +73,34 @@
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.74" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="53" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="12" />
-          <entry key="JAVA" value="110" />
+          <entry key="CLASS" value="14" />
+          <entry key="JAVA" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="12" />
-          <entry key="java" value="110" />
+          <entry key="class" value="14" />
+          <entry key="java" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4552" />
+          <entry key="java" value="4651" />
           <entry key="txt" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4552" />
+          <entry key="JAVA" value="4651" />
           <entry key="PLAIN_TEXT" value="77" />
         </counts>
       </usages-collector>
@@ -107,102 +109,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/classloader/ClassLoaderView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/classloader/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="361" column="48" selection-start-line="361" selection-start-column="48" selection-end-line="361" selection-end-column="48" />
+            <state relative-caret-position="80">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java">
+        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/classloader/LoaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GC/src/test/java/Test.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Launcher.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="24" column="52" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/zuo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18820">
-              <caret line="1021" column="13" selection-start-line="1021" selection-start-column="13" selection-end-line="1021" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GC/src/test/java/LocalCacheTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2220">
-              <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
-              <folding>
-                <element signature="e#4021#4022#0" expanded="true" />
-                <element signature="e#4085#4086#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2200">
-              <caret line="151" column="27" selection-start-line="151" selection-start-column="27" selection-end-line="151" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/LockDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/cdl/MyCDL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="3680">
+              <caret line="217" selection-start-line="217" selection-end-line="217" />
             </state>
           </provider>
         </entry>
@@ -218,7 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>compare</find>
       <find>AtomicStampedReference</find>
       <find>CyclicBarrier</find>
       <find>peek</find>
@@ -248,6 +185,7 @@
       <find>unsafe</find>
       <find>cas</find>
       <find>getAndAddInt</find>
+      <find>loader</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -257,10 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/rocketMqTest/ConsumerTest.java" />
-        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/SynchronizationTool/TestHarness.java" />
-        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/SynchronizationTool/CellularAutomata.java" />
-        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/SynchronizationTool/BoundedHashSet.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/SynchronizationTool/CyclicBarrierTaskTest.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/concurrency/ConcurrencyTest.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/deadLock/DeadLockDemo.java" />
@@ -308,6 +242,10 @@
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java" />
         <option value="$PROJECT_DIR$/GC/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/thread/zuo.java" />
+        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/ckassloader/ClassLoaderView.java" />
+        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/classloader/ClassLoaderView.java" />
+        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/classloader/Main.java" />
+        <option value="$PROJECT_DIR$/GC/src/main/java/com/wyj/classloader/LoaderTest.java" />
       </list>
     </option>
   </component>
@@ -339,10 +277,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="28" />
-    <option name="y" value="23" />
-    <option name="width" value="1606" />
-    <option name="height" value="973" />
+    <option name="y" value="301" />
+    <option name="width" value="1680" />
+    <option name="height" value="865" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -351,6 +288,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -401,50 +339,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wyj" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="GC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wyj" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectHashMapDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="GC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wyj" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="GC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wyj" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="lock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="GC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wyj" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="classloader" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
@@ -573,6 +468,14 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -608,15 +511,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Concurren&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java&#10;Ato&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java&#10;Visi&#9;FILE&#9;file:///Users/wanyajing/IdeaProjects/jvm/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java&#10;Scheduled&#9;PSI&#9;JAVA://java.util.concurrent.ScheduledExecutorService&#10;DelayQ&#9;PSI&#9;JAVA://java.util.concurrent.DelayQueue&#10;PriorityQueue&#9;PSI&#9;JAVA://java.util.PriorityQueue&#10;BlockingQ&#9;PSI&#9;JAVA://java.util.concurrent.PriorityBlockingQueue&#10;LinkedB&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingQueue.java&#10;ArrayB&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;ConcurrentLinkedQueue&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentLinkedQueue&#10;queue&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingQueue.java&#10;ConcurrentSkipListSet&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentSkipListSet&#10;CopyOnWriteArraySet&#9;PSI&#9;JAVA://java.util.concurrent.CopyOnWriteArraySet&#10;hashSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashSet.java&#10;CopyOnW&#9;PSI&#9;JAVA://java.util.concurrent.CopyOnWriteArrayList&#10;hashMapDem&#9;PSI&#9;JAVA://com.wyj.juc.map.HashMapDemo&#10;concurrentHashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/ConcurrentHashMap.class&#10;hashMa&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;AtomicStampedReference&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java&#10;AtomicIn&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java&#10;LockDemo&#9;FILE&#9;file:///Users/wanyajing/IdeaProjects/jvm/GC/src/main/java/com/wyj/jvm/lock/LockDemo.java&#10;Vis&#9;FILE&#9;file:///Users/wanyajing/IdeaProjects/jvm/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java&#10;count&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java&#10;Abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;AtomicS&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicStampedReference&#10;LongAdder&#9;PSI&#9;JAVA://java.util.concurrent.atomic.LongAdder&#10;Reen&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lock&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java&#10;Blo&#9;FILE&#9;jar://D:/software/java/jdk1.8.0/src.zip!/java/util/concurrent/BlockingQueue.java" />
+    <property name="SearchEverywhereHistoryKey" value="ClassLoader&#9;FILE&#9;file:///Users/wanyajing/IdeaProjects/jvm/GC/src/main/java/com/wyj/classloader/ClassLoaderView.java&#10;LoadTe&#9;PSI&#9;JAVA://com.wyj.classloader.LoaderTest&#10;AppClassLoader&#9;PSI&#9;JAVA://sun.misc.Launcher.AppClassLoader&#10;String&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/String.class&#10;Concurren&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java&#10;Ato&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java&#10;Visi&#9;FILE&#9;file:///Users/wanyajing/IdeaProjects/jvm/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java&#10;Scheduled&#9;PSI&#9;JAVA://java.util.concurrent.ScheduledExecutorService&#10;DelayQ&#9;PSI&#9;JAVA://java.util.concurrent.DelayQueue&#10;PriorityQueue&#9;PSI&#9;JAVA://java.util.PriorityQueue&#10;BlockingQ&#9;PSI&#9;JAVA://java.util.concurrent.PriorityBlockingQueue&#10;LinkedB&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingQueue.java&#10;ArrayB&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;ConcurrentLinkedQueue&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentLinkedQueue&#10;queue&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingQueue.java&#10;ConcurrentSkipListSet&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentSkipListSet&#10;CopyOnWriteArraySet&#9;PSI&#9;JAVA://java.util.concurrent.CopyOnWriteArraySet&#10;hashSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashSet.java&#10;CopyOnW&#9;PSI&#9;JAVA://java.util.concurrent.CopyOnWriteArrayList&#10;hashMapDem&#9;PSI&#9;JAVA://com.wyj.juc.map.HashMapDemo&#10;concurrentHashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/ConcurrentHashMap.class&#10;hashMa&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;AtomicStampedReference&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java&#10;AtomicIn&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java&#10;LockDemo&#9;FILE&#9;file:///Users/wanyajing/IdeaProjects/jvm/GC/src/main/java/com/wyj/jvm/lock/LockDemo.java&#10;Vis&#9;FILE&#9;file:///Users/wanyajing/IdeaProjects/jvm/GC/src/main/java/com/wyj/jvm/thread/VisibilityDemo.java&#10;count&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java&#10;Abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;AtomicS&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicStampedReference&#10;LongAdder&#9;PSI&#9;JAVA://java.util.concurrent.atomic.LongAdder&#10;Reen&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lock&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java&#10;Blo&#9;FILE&#9;jar://D:/software/java/jdk1.8.0/src.zip!/java/util/concurrent/BlockingQueue.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564365046815" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565165638398" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -624,20 +526,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/sync" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.alibaba.dubbo" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.wyj.jvm.lock" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GC/src/main/java/com/wyj/ckassloader" />
       <recent name="$PROJECT_DIR$/GC/src/main/java/com/wyj/juc" />
       <recent name="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm" />
       <recent name="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/condition" />
       <recent name="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wyj.jvm.lock" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/sync" />
     </key>
   </component>
@@ -653,7 +555,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.zuo">
+  <component name="RunManager" selected="Application.LoaderTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -662,13 +564,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wyj.juc.map.HashMapTest" />
+    <configuration name="ClassLoaderView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wyj.classloader.ClassLoaderView" />
       <module name="GC" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wyj.juc.map.*" />
+          <option name="PATTERN" value="com.wyj.classloader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -676,13 +578,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.lock.LockDemo2" />
+    <configuration name="LoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wyj.classloader.LoaderTest" />
       <module name="GC" />
-      <option name="VM_PARAMETERS" value="-server" />
+      <option name="VM_PARAMETERS" value="-verbose:class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wyj.jvm.lock.*" />
+          <option name="PATTERN" value="com.wyj.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wyj.classloader.Main" />
+      <module name="GC" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wyj.classloader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -693,19 +609,6 @@
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="GC" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VisibilityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wyj.jvm.thread.VisibilityDemo" />
-      <module name="GC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wyj.jvm.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -755,19 +658,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HashMapTest" />
-      <item itemvalue="Application.VisibilityDemo" />
-      <item itemvalue="Application.LockDemo2" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.zuo" />
+      <item itemvalue="Application.ClassLoaderView" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.LoaderTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoaderTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ClassLoaderView" />
         <item itemvalue="Application.zuo" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.VisibilityDemo" />
-        <item itemvalue="Application.LockDemo2" />
-        <item itemvalue="Application.HashMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -868,7 +771,11 @@
       <workItem from="1564365256707" duration="591000" />
       <workItem from="1564405273930" duration="37000" />
       <workItem from="1564452214161" duration="598000" />
-      <workItem from="1564537769258" duration="595000" />
+      <workItem from="1564537769258" duration="3313000" />
+      <workItem from="1564928614706" duration="597000" />
+      <workItem from="1564968118811" duration="13892000" />
+      <workItem from="1565074155698" duration="883000" />
+      <workItem from="1565149641014" duration="630000" />
     </task>
     <task id="LOCAL-00001" summary="ThreadLocalTest">
       <created>1524388421606</created>
@@ -1108,7 +1015,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563183336313</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="tuishui1">
+      <created>1564558517279</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1564558517279</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1144,7 +1058,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="618604000" />
+    <option name="totallyTimeSpent" value="637324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1156,10 +1070,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="23" width="1606" height="973" extended-state="0" />
+    <frame x="0" y="301" width="1680" height="865" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18222506" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18192919" />
       <window_info id="Structure" order="1" weight="0.21483377" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1168,17 +1082,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.0" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2587968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38292366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39727584" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.75936437" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.17981888" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32941177" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.3291714" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1214,7 +1129,8 @@
     <MESSAGE value="高并发test" />
     <MESSAGE value="自写同步工具" />
     <MESSAGE value="hashmap" />
-    <option name="LAST_COMMIT_MESSAGE" value="hashmap" />
+    <MESSAGE value="tuishui1" />
+    <option name="LAST_COMMIT_MESSAGE" value="tuishui1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1309,6 +1225,12 @@
           <properties />
           <option name="timeStamp" value="117" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GC/src/main/java/com/wyj/classloader/LoaderTest.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1339,35 +1261,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/cdl/benchmark/BenchmarkTeatsCDL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/CDLdemo.java" />
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/AQSdemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="81" column="26" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/lock/lock/DemoLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/semaphore/MySemaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/jvm/semaphore/SemaphoreDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1679,10 +1572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2220">
           <caret line="157" column="25" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
-          <folding>
-            <element signature="e#4021#4022#0" expanded="true" />
-            <element signature="e#4085#4086#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1697,9 +1586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1710,6 +1596,41 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/classloader/ClassLoaderView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/classloader/LoaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Launcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3680">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GC/src/main/java/com/wyj/classloader/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>

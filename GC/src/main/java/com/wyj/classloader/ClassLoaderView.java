@@ -1,4 +1,4 @@
-package com.wyj.ckassloader;
+package com.wyj.classloader;
 
 /**
  * 查看类的加载器实例
